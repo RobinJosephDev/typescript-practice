@@ -10,8 +10,13 @@ let addOrConcat = (a, b, c) => {
 };
 let myVal = addOrConcat(2, 2, "concat");
 let nextal = addOrConcat(2, 2, "add");
-export {};
 //10 as string;
 //10 as unknown as string;
 //DOM
+const img = document.querySelector("img");
+const myImg = document.getElementById("img");
+const myImg = (document.getElementById("img"));
+img.src;
+myImg.src;
+export {};
 //# sourceMappingURL=main.js.map

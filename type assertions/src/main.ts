@@ -25,3 +25,11 @@ let nextal: number = addOrConcat(2, 2, "add") as number;
 //10 as unknown as string;
 
 //DOM
+const img = document.querySelector("img") as HTMLImageElement;
+const myImg = document.getElementById("img") as HTMLImageElement;
+const myImg = (<HTMLImageElement>(
+  document.getElementById("img")
+)) as HTMLImageElement;
+
+img.src;
+myImg.src;
